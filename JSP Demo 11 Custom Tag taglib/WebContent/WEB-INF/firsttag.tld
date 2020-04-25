@@ -1,0 +1,11 @@
+<taglib>
+	 <tlib-version>1.0</tlib-version>
+	 <jsp-version>2.0</jsp-version>
+	 <short-name>Our first custom tag</short-name>
+ 
+	 <tag>
+	    <name>mydate</name>
+	    <tag-class>com.vowtech.CustomTag</tag-class>
+	    <body-content>empty</body-content>
+	 </tag>
+</taglib>

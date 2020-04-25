@@ -1,0 +1,21 @@
+declare
+  n number;
+  m number;
+  r number;
+  rev number :=0;
+ begin
+  n := :n;
+  m := n;
+  while n>0
+loop
+r:= mod(n,10);
+rev := (rev*10)+r;
+n:=trunc(n/10);
+end loop;
+if m=rev then
+DBMS_OUTPUT.PUT_LINE('Palindrome');
+else
+DBMS_OUTPUT.PUT_LINE('not Palindrome');
+end if;
+end;
+
